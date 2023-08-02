@@ -1,0 +1,82 @@
+a, h1, h2, h3, h4, h5, div, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    background-color: beige;
+    margin: 0 auto;
+}
+
+#nav {
+    background-color: goldenrod;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+}
+#east {
+display: flex;
+margin-right: 1200px;
+}
+#west {
+display: flex;
+}
+.e {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    z-index: 2;
+    padding-left: 20px;
+}
+
+.w {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    z-index: 2;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+#whynot {
+    clear: both;
+    text-align: center;
+}
+
+#stuff {
+    width: 0 800px 0 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.latin {
+    width: 250px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    }
+
+.latin h2 {
+    text-indent: -10px;
+}
+
+.latin p {
+    text-align: left;
+}
+
+.latin a {
+    background-color: goldenrod;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 90px;
+    border-radius: 2px;
+}
